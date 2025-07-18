@@ -14,27 +14,27 @@ robot <path to file>/<filename>.robot
 
 1. ทดสอบ Google "ค้นหา คำค้น และตรวจสอบผลการค้นหา"
 
-```sh
-robot E2E-Test/UI/Google/google.robot
-```
+   ```sh
+   robot E2E-Test/UI/Google/google.robot
+   ```
 
-หรือ
+   หรือ
 
-```sh
-robot E2E-Test/UI/Google/google_2.robot
-```
+   ```sh
+   robot E2E-Test/UI/Google/google_2.robot
+   ```
 
 2. ทดสอบ Amazon "ค้นหาหนังสือ เพิ่มลงใน Shopping Cart สำเร็จ"
 
-```sh
-robot E2E-Test/UI/Amazon/view_and_add_to_cart_success.robot
-```
+   ```sh
+   robot E2E-Test/UI/Amazon/view_and_add_to_cart_success.robot
+   ```
 
-หรือ
+   หรือ
 
-```sh
-robot E2E-Test/UI/Amazon/view_and_add_to_cart_success_2.robot
-```
+   ```sh
+   robot E2E-Test/UI/Amazon/view_and_add_to_cart_success_2.robot
+   ```
 
 ## How to View Report
 
