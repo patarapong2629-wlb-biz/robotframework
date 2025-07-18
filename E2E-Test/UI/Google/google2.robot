@@ -1,9 +1,11 @@
 *** Settings ***
 Library     SeleniumLibrary
 
+
 *** Variables ***
 ${URL}          https://www.bing.com
-${BROWSER}      headlesschrome
+${BROWSER}      chrome
+
 
 *** Test Cases ***
 ค้นหา คำค้น และตรวจสอบผลการค้นหา
@@ -11,6 +13,7 @@ ${BROWSER}      headlesschrome
     ใส่คำค้นหา    ข้าวหมูทอดเฮียวงศ์วงเวียนใหญ่
     กดปุ่ม Enter
     ตรวจสอบผลการค้นหา ต้องพบ ข้าวหมูทอด เฮียวงศ์
+
 
 *** Keywords ***
 เข้า Google
